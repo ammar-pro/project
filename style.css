@@ -1,0 +1,106 @@
+*{
+margin: 0;
+padding: 0;
+font-family: apple-system,BlinkMacSystemFont,
+"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,
+"Open Sans","Helvetica Neue",sans-serif;;
+}
+.nav{
+    display: flex;
+justify-content:space-between;
+}
+.anker a{
+text-decoration: none;
+color: black;
+
+}
+a:hover{
+    color: orange;
+}
+.box{
+    display: flex;
+}
+.anker{
+  padding-top: 20px;
+  /* padding-left:-20px; */
+  padding-right: 60px;
+  margin-left: 10px;
+  margin-right: 40px;
+
+}
+ .image img{
+    height: 70px;
+padding-top: 10px;
+margin-right: 10px;
+margin-left: 140px;
+} 
+.text-info{
+   
+}
+.heading{
+    font-size: 35px;
+    margin-left: 140px;
+    margin-top: 260px;
+}
+.peragraph{
+    width: 50%;
+    font-size: 11px;
+    margin-top: 10px;
+ 
+}
+.text button{
+background-color: #FF6600;
+color: white;
+border: none;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin-top: 30px;
+}
+.flex{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+.flex div img{
+    height: 500px;
+
+}
+.text-info{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.icons{
+    display: flex;
+    color: #FF6600;
+    font-size: 25px;
+    justify-content: space-around;
+    width: 10%;
+    margin-top: 180px;
+    margin-left: 130px;
+}
+.container{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+ margin-right: 32px;
+}
+@media(max-width:1199){
+
+}
+@media(max-width:991){
+
+}
+@media(max-width:767){
+
+}
+@media(max-width:567){
+
+}
